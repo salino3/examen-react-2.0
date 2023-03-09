@@ -8,7 +8,7 @@ export const InputNav: React.FC = () => {
   return (
     <form >
       <label  className="lblInput">
-        Look for with number product
+        Label Input
       </label>
       <br />
       <TextField
