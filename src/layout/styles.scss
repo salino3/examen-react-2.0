@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: rgb(253, 181, 72);
+}
+
+.divHome {
+  margin-left: 1em;
+}
+
+.divHome div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14em, 20%));
+  padding: 1em;
+  gap: 2em;
+
+  .card {
+    border: solid 1px green;
+    border-radius: 10px;
+    max-height: 15em;
+    display: grid;
+    grid-template-rows: 30% 20%;
+
+    .texts {
+      position: relative;
+      top: 3em;
+      color: rgb(111, 181, 6);
+
+      .myCheckBox {
+        display: grid;
+        grid-template-columns: 20% 10%;
+        position: relative;
+        top: -3em;
+      }
+    }
+  }
+}
+
+.asideContainer1 {
+  float: right;
+  min-width: 15em;
+  width: 25%;
+  border: solid green 2px;
+  min-height: 100vh;
+  height: minmax(auto, 130%);
+  background-color: rgb(228, 228, 63);
+}
+
+.asideContainer2 {
+  float: right;
+  min-width: 4em;
+  border: solid green 2px;
+  min-height: 100vh;
+  height: minmax(auto, 130%);
+  background-color: rgb(228, 228, 63);
+}

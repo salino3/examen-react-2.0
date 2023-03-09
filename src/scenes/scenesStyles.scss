@@ -1,0 +1,33 @@
+.boxLinks {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2em;
+  padding-left: 4em;
+}
+
+aside {
+  h4,
+  h5 {
+    color: white;
+  }
+
+  .btnCart {
+    margin: 0.5em;
+    background: red;
+  }
+
+  .myCart {
+    color: red;
+    margin: 0.5em;
+  }
+
+  .item2 {
+    display: grid;
+    grid-template-columns: 3em auto;
+
+    h5 {
+      margin-top: 0.2em;
+      color: blue;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.myHeader {
+  position: sticky;
+  top: 0;
+  border: solid 2px blue;
+  border-radius: 15px;
+  margin: 0em 1em 1em;
+}
+
+nav {
+  margin: 1em;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  .box1Navbar {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+  }
+
+  .lblInput {
+    color: white;
+    background-color: rgb(26, 159, 159);
+    padding: 0.2em;
+  }
+
+  .inputNav {
+    margin-top: 0.5em;
+  }
+
+  .btnInput {
+    margin: 0.5em;
+  }
+}
+
+aside {
+  .txtEmpty {
+    margin: 0.5em;
+    color: teal;
+  }
+
+  .listAside {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0.3em;
+    border: solid green 1px;
+    padding: 0.2em;
+
+    .item1 {
+      margin-top: 0.4em;
+      color: teal;
+    }
+  }
+}
